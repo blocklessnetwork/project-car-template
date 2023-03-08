@@ -1,0 +1,25 @@
+{
+    "fs_root_path": "$ENV_ROOT_PATH", 
+    "drivers_root_path": "$ENV_ROOT_PATH/drivers", 
+    "runtime_logger": "runtime.log", 
+    "limited_fuel": 200000000,
+    "limited_memory": 30,
+    "debug_info": false,
+    "entry": "run",
+    "modules": [
+        {
+            "file": "$ROOT/linking1.wat",
+            "name": "linking1",
+            "type": "entry",
+            "md5": "9767023204b697d44896e37cc9e932a8"
+        },
+        {
+            "file": "$ROOT/linking2.wat",
+            "name": "linking2",
+            "type": "module",
+            "md5": "0047cd71fa55c7842f343c8705920916"
+        }
+    ],
+    "permissions": [
+    ]
+}
